@@ -3,21 +3,21 @@ body {
 }
 
 .wrapper {
-    margin: 2rem auto; /* Mengganti lem dengan rem untuk margin */
+    margin: 2rem auto; 
     max-width: 900px;
     padding: 1em;
-    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2); /* Menggunakan nilai rgba yang benar */
-    border: 2px solid pink; /* Menambahkan border solid */
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2); 
+    border: 2px solid black; 
 }
 
 .main-grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-column-gap: 1rem; /* Mengganti lem dengan rem untuk jarak */
+    grid-column-gap: 1rem; 
 }
 
 .left-side {
-    padding: 1rem; /* Mengganti lem dengan rem */
+    padding: 1rem; 
     background-color: rgb(25, 25, 77);
     color: white; 
 }
@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
 }
 
 .left-side > hr {
@@ -42,9 +42,9 @@ h1 {
 }
 
 .right-side {
-    padding: 1rem; /* Mengganti lem dengan rem */
-    display: grid; /* Menambahkan display grid untuk layout yang konsisten */
-    grid-template-rows: auto auto auto 1fr; /* Memperbaiki grid-template-rows */
+    padding: 1rem; 
+    display: grid; 
+    grid-template-rows: auto auto auto 1fr; 
 }
 
 .right-side > p {
@@ -74,7 +74,7 @@ h1 {
     font-size: 0.8em;
 }
 
-.company { /* Mengubah nama kelas untuk konsistensi */
+.company { 
     margin-top: 0;
     margin-bottom: 0.1em;
     font-weight: 600;
@@ -100,7 +100,7 @@ h1 {
 .study {
     display: grid;
     grid-column: span 2;
-    grid-template-columns: 1fr 1fr; /* Mengatur kolom untuk studi */
+    grid-template-columns: 1fr 1fr; 
 }
 
 .category {
